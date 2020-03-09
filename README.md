@@ -1,1 +1,3 @@
-# Exercicios-DW1A3
+# README.md
+
+Cezar Augusto - SP3022552
