@@ -1,7 +1,60 @@
-[html]
-<html>
-<head> Exercicio3(2) </head>
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <title>Exercício 3(2)</title>
+</head>  
 <body>
+    <form action= "http://www.example.com/login.php">
+    <p>Gamertag:
+        <label><input type="text" name="gamertag" size="15" maxlength="40" /></label>
+    </p>    
+    <p>Informe seu nome verdadeiro (não será divulgado)    
+        <label><input type="password" name="senha" size="15" maxlength="30" /></label>
+    </p>
+    <p> Coloque aqui a imagem da sua foto de perfil: 
+    <br>
+        <input type="file" name="fotoperfil" />
+    </p>    
+    <p>Por favor, informe a sua plataforma:  
+    <br>    
+        <input id="play" type="radio" name="plataforma" value="Play" checked="checked" />
+        <label for="play">Playstation 4</label>
+        <input id="xbox" type="radio" name="plataforma" value="Xbox" checked="checked" />
+        <label for="xbox">Xbox ONE</label>
+        <input id="nintendo" type="radio" name="plataforma" value="Nintendo" checked="checked" />
+        <label for="nintendo">Nintendo Switch</label>
+    </p>
+    <p> Em qual período do dia você costuma jogar mais (apenas online)?
+        <select name="período">
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option> 
+            <option value="noite">Noite</option> 
+        </select>    
+    </p>    
+    <p>Marque quais destes jogos você costuma jogar (online):
+        <br>
+        <input id="COD" type="checkbox" name="jogos" value="cod" checked="checked" />
+        <label for="COD">Call Of Duty: Warzone</label>
+        <input id="Fort" type="checkbox" name="jogos" value="fort" checked="checked" />
+        <label for="Fort">Fortnite</label>
+        <input id="FALL" type="checkbox" name="jogos" value="fall" checked="checked" />
+        <label for="FALL">Fall Guys</label>
+    </p>    
+    <p>Existem outros jogos que você costuma jogar (online)?</p>
+        <textarea name="comments" cols="40" rows="8"></textarea>
+    <br>
+    <p>Deseja fazer alguma pesquisa?</p>
+        <input type="search" name="pesquisa" placeholder="Pesquise" />
+        <input type="submit" value="search" />
+    <hr>    
+    <br><fieldset>
+        <legend>Outros detalhes para contato</legend>  
+        <label>Email:<br><input type="email" name="email" /></label><br>
+        <label>Celular:<br><input type="text" name="cel" /></label><br>
+        <label>Facebook:<br><input type="text" name="face" /></label><br>
+        <label>Data de nascimento:<br><input type="date" name="nasc" /></label><br>
+    </fieldset>    
+ </form>   
 </body>
 </html>
-[/html]
