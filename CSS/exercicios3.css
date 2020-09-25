@@ -1,0 +1,32 @@
+img.medium{
+    float: right;
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+    right: 10px;
+    display: block;}
+
+.paragrafo{
+    float: left;
+    width: 850px;
+    margin: 10px;}
+
+.imagens{
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin: 1px;
+    margin-right: 1px}
+}
+
+
+table {
+    border: none;
+}
+
+th, td {
+    border: none;
+    background-color: #dddddd;
+    padding: 5px;
+    width: 100px;}
+}
