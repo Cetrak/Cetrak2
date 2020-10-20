@@ -11,7 +11,7 @@ function Facebook(){
 }
 
 function home(){
-    window.location.replace("https://www.filosofiaesoterica.com/#gsc.tab=0")
+    window.location.replace("https://caiosilva88.github.io/Exercicios-DW1A3/Projeto/index.html") //caio
 }
 
 function grupo(){
