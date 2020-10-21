@@ -1,3 +1,4 @@
+//Cezar
 function contato(){
     window.location.replace("https://cetrak.github.io/Exercicios-DW1A3/ProjetoFinal/contato.html");
 }
@@ -27,7 +28,7 @@ function curso(){
 }
 
 function mapas(){
-    window.location.replace("https://cetrak.github.io/Exercicios-DW1A3/ProjetoFinal/mapa.html")
+    window.location.replace("https://cetrak.github.io/Exercicios-DW1A3/ProjetoFinal/mapa.html") //pdf
 }
 
 function associados(){
