@@ -10,7 +10,7 @@ body{
 .sidebar{
     position:fixed;
     left:0;
-    width:400px;
+    width:250;
     height: 100%;
     background: #042331;
 }
@@ -86,4 +86,3 @@ ul li:hover a{
 .medium:hover{
     width: 35px;
 }
-
