@@ -29,3 +29,6 @@ function curso(){
 function mapas(){
     window.location.replace("https://cetrak.github.io/Exercicios-DW1A3/ProjetoFinal/mapa.html")
 }
+
+function associados(){
+    window.location.replace("https://ghol1n.github.io/Exercicios-DW1A3/projeto/websites%20associados.html")}
